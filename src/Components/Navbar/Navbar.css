@@ -1,0 +1,20 @@
+.navbar-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white;
+}
+nav.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+}
+.scrolled{
+    background-color: #121212;
+}
+.me-auto{
+    justify-content: flex-end;
+    width: 100%;
+}

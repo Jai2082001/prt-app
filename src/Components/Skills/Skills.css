@@ -1,0 +1,19 @@
+.skill{
+    position: relative;
+    background-color: #151515;
+    padding: 70px;
+    border-radius: 10px ;
+}
+.skill2{
+    border-radius: 8px;
+}
+.skill-box{
+    text-align: center;
+}
+.item{
+    max-height: 200px;
+    text-align: center;
+}
+.item canvas{
+    margin: 0 auto;
+}

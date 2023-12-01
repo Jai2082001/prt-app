@@ -1,0 +1,46 @@
+.col img{
+    width: 100%; 
+}
+.col img{
+    position: relative;
+    z-index: -555
+}
+.col{
+    margin-top: 10px;
+    transition: 0.7s all ease-in-out;
+    cursor: pointer;   
+}
+.proj-inbox {
+    position: relative;
+    background: none;
+    
+    transition: 0.2s all ease-in;
+}
+.proj-txtx{
+    display: none;
+}
+.proj-inbox:hover{
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+
+}
+.proj-inbox:hover .proj-txtx{
+    display: flex;
+    flex-direction: column;
+}
+.proj-txtx{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    z-index: 2;
+}
+
+
+
+@keyframes CardAnimate {
+    from {
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
